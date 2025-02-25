@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.TopBar {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 5px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#PageManagement {
+  display: flex;
+}
+
+.Controllers {
+  font-size: 15px;
+  cursor: pointer;
+  background-color:transparent;
+  border: none;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.Controllers:hover {
+  color: #000;
+  transform: scale(1.1);
+}
+
+.NavigatorBar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 5px 10px;
+  background: #fff;
+  width: 50%;
+}
+
+.NavigatorBar input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 100%;
+}
+
+.NavigatorBar i {
+  margin-left: 5px;
+  color: #555;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.NavigatorBar i:hover {
+  color: #000;
+}
+
+#ShowPages {
+  width: 100%;
+  height: calc(90vh - 40px);
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: #000;
+}
